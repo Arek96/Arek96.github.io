@@ -8,7 +8,7 @@ function winScr() {
     i;
      console.log(yPos);
     if (yPos > 50) {
-        console.log("wielki chuj");
+        
         i = 0;
         brandImg.setAttribute("src", "img/logo.png");
         for(i=0; i<=4; i++){
