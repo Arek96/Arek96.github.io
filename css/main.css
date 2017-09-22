@@ -3,10 +3,7 @@
 *{
     box-sizing: border-box;
 }
-@font-face{
-    font-family: WorksSans;
-    src: url(../fonts/WorkSans-Regular)
-}
+
 
 html, body{
     height: 100%;
@@ -15,18 +12,18 @@ html, body{
     margin: 0;
     display: block;
     box-sizing: inherit;
-    
-        
+    font-family: 'Work Sans', sans-serif;
+      font-size: 100%;  
 }
 .navRow {
-    width: 75%;
+    width: 60%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 .navBrand {
-    flex-grow: 2;
+    flex-grow: 3;
 }
 
 .navItem>a {
@@ -44,7 +41,7 @@ html, body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100px;
+    height: 10vh;
     margin: 0;
     left:0;
     top: 0;
@@ -56,11 +53,11 @@ html, body{
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
-    font-size: 0.8rem;
-    font-weight: 500;
-    font-family: Work Sans, sans-serif;
-    line-height: 1.65;
-    letter-spacing: .004em;
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.4;
+    letter-spacing: .006em;
     -webkit-font-smoothing: antialiased;
 }
  
@@ -85,16 +82,40 @@ html, body{
     margin: 0;
     color: white;
     font-size: 28px;
-
+    text-align: center;
 }
-
-.aboutItems>p {
+#bannerp{
+    font-size: .93rem;
+    letter-spacing: .2em;
+    margin-bottom: 1.1rem;
+}
+#banner1h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 3.4rem;
+    font-weight: 700;
+    letter-spacing: .004em;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+#banner2h1{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 3.4rem;
+    font-weight: 400;
+    letter-spacing: .004em;
+    -webkit-font-smoothing: antialiased;
+        line-height: 1.18;
+    margin-top: 0;
+}
+#aboutpar{
     text-align: center;
     overflow: hidden;
+    width: 60vw;
 }
 
 .about {
-   display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -468,20 +489,19 @@ padding: 20px;
     
 }
 @media(max-width: 600px){
-    .thumbnail1{width: 30vh;height: 30vh;}
-    .thumbnail2{width: 30vh;height: 30vh;}
-    .thumbnail3{width: 30vh;height: 30vh;}
-    .thumbnail4{width: 30vh;height: 30vh;}
-    .thumbnail5{width: 30vh;height: 30vh;}
-    .thumbnail6{width: 30vh;height: 30vh;}
-    .thumbnail7{width: 30vh;height: 30vh;}
-    .thumbnail8{width: 30vh;height: 30vh;}
-    .thumbnail9{width: 30vh;height: 30vh;}
-
+    .thumbnail1{width: 50vh;height: 50vh;}
+    .thumbnail2{width: 50vh;height: 50vh;}
+    .thumbnail3{width: 50vh;height: 50vh;}
+    .thumbnail4{width: 50vh;height: 50vh;}
+    .thumbnail5{width: 50vh;height: 50vh;}
+    .thumbnail6{width: 50vh;height: 50vh;}
+    .thumbnail7{width: 50vh;height: 50vh;}
+    .thumbnail8{width: 50vh;height: 50h;}
+    .thumbnail9{width: 50vh;height: 50vh;}
     .Items{flex-wrap: wrap;}
     .navLinks{display: none;}
     .bannerItems>h1{font-size:1.25rem; }
-    
+    html{font-size: 50%}
 
 }
 @media(max-width: 768px){
@@ -494,7 +514,7 @@ padding: 20px;
     .thumbnail7{width: 40vh; height: 40vh;}
     .thumbnail8{width: 40vh; height: 40vh;}
     .thumbnail9{width: 40vh; height: 40vh;}
-
+html{font-size: 75%}
     .navLinks{display: none; }
     .bannerItems{font-size: 1.75rem;}
     .numbers{height: 70vh; padding-left: 7.5%;}
