@@ -176,8 +176,8 @@ padding: 20px;
     background-image: url(../img/portfolio-1-sm.jpg);
     background-position: center;
     background-size: cover;
-    height: 50vh;
-    width: 50vh;
+    height: 40vh;
+    width: 40vh;
 }
 .Items {
     height: 100%;
@@ -203,8 +203,8 @@ padding: 20px;
     background-image: url(../img/portfolio-2-sm.jpg);
     background-position: center;
     background-size: cover;
-    height: 50vh;
-    width: 50vh
+    height: 40vh;
+    width: 40vh
 }
 #thumbnailhover2 {
      width: 100%;
@@ -221,8 +221,8 @@ padding: 20px;
     background-image: url(../img/portfolio-3-sm.jpg);
     background-position: center;
     background-size: cover;
-    height: 50vh;
-    width: 50vh;
+    height: 40vh;
+    width: 40vh;
 }
 #thumbnailhover3 {
      width: 100%;
@@ -239,8 +239,8 @@ padding: 20px;
     background-image: url(../img/portfolio-4-sm.jpg);
     background-position: center;
     background-size: cover;
-    height: 50vh;
-    width: 50vh;
+    height: 40vh;
+    width: 40vh;
 }
 #thumbnailhover4 {
      width: 100%;
@@ -257,8 +257,8 @@ padding: 20px;
     background-image: url(../img/portfolio-5-sm.jpg);
     background-position: center;
     background-size: cover;
-    height: 50vh;
-    width: 50vh;
+    height: 40vh;
+    width: 40vh;
 }
 #thumbnailhover5 {
      width: 100%;
@@ -275,8 +275,8 @@ padding: 20px;
     background-image: url(../img/portfolio-6-sm.jpg);
     background-position: center;
     background-size: cover;
-    height: 50vh;
-    width: 50vh;
+    height: 40vh;
+    width: 40vh;
 }
 #thumbnailhover6 {
      width: 100%;
@@ -293,8 +293,8 @@ padding: 20px;
     background-image: url(../img/portfolio-7-sm.jpg);
     background-position: center;
     background-size: cover;
-    height: 50vh;
-    width: 50vh;
+    height: 40vh;
+    width: 40vh;
 }
 #thumbnailhover7 {
      width: 100%;
@@ -311,8 +311,8 @@ padding: 20px;
     background-image: url(../img/portfolio-8-sm.jpg);
     background-position: center;
     background-size: cover;
-    height: 50vh;
-    width: 50vh;
+    height: 40vh;
+    width: 40vh;
 }
 #thumbnailhover8 {
      width: 100%;
@@ -329,8 +329,8 @@ padding: 20px;
     background-image: url(../img/portfolio-9-sm.jpg);
     background-position: center;
     background-size: cover;
-    height: 50vh;
-    width: 50vh;
+    height: 40vh;
+    width: 40vh;
 }
 #thumbnailhover9 {
      width: 100%;
@@ -501,8 +501,10 @@ padding: 20px;
     .Items{flex-wrap: wrap;}
     .navLinks{display: none;}
     .bannerItems>h1{font-size:1.25rem; }
-    html{font-size: 50%}
-
+    html{font-size: 50%;}
+    .navBrand{flex-grow: 1;}
+    .navRow{width: 100%;}
+    #aboutpar{width: 90vw;}
 }
 @media(max-width: 768px){
     .thumbnail1{width: 40vh; height: 40vh;}
@@ -514,14 +516,21 @@ padding: 20px;
     .thumbnail7{width: 40vh; height: 40vh;}
     .thumbnail8{width: 40vh; height: 40vh;}
     .thumbnail9{width: 40vh; height: 40vh;}
-html{font-size: 75%}
+    html{font-size: 75%}
     .navLinks{display: none; }
     .bannerItems{font-size: 1.75rem;}
     .numbers{height: 70vh; padding-left: 7.5%;}
     .Items{flex-wrap: wrap; width: 90%; justify-content: space-between}
-    
+    .navBrand{flex-grow: 2;}
+    .navRow{width: 80%;}
+     #aboutpar{width: 80vw;}
 }
-
+@media(max-width: 991px){
+    navLinks{display: none; }
+    
+    .navBrand{flex-grow: 2}
+    .navRow{width: 90%}
+}
 .thumbnails {
     display: flex;
     justify-content: center;
@@ -599,6 +608,12 @@ html{font-size: 75%}
 .par {
     width: 90%;
     text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.45;
+    margin-bottom: 1.15rem;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-style: italic;
 }
 
 
