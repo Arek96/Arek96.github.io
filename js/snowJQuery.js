@@ -24,4 +24,22 @@ $('.owl-two').owlCarousel({
         }
     }
 });
+    $('.owl-three').owlCarousel({
+    loop:true,
+    margin:30,
+    center:true,
+    dots:true,
+    responsiveClass: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        900:{
+            items:3
+        }
+    }
+});
 });
