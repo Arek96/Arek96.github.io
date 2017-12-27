@@ -32,10 +32,10 @@ $('.owl-two').owlCarousel({
     responsiveClass: true,
     responsive:{
         0:{
-            items:1
+            items:1.5
         },
         600:{
-            items:1
+            items:3
         },
         900:{
             items:3
