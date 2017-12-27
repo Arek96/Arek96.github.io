@@ -83,6 +83,7 @@ html, body{
     font-size: .93rem;
     letter-spacing: .2em;
     margin-bottom: 1.1rem;
+  text-shadow: 1px 1px #5f5f5f;
 }
 #banner1h1{
     font-family: 'Playfair Display', serif;
@@ -92,6 +93,7 @@ html, body{
     -webkit-font-smoothing: antialiased;
     margin-bottom: 1rem;
     margin-top: 0;
+    text-shadow: 1px 1px #5f5f5f;
 }
 #banner2h1{
     font-family: 'Playfair Display', serif;
@@ -102,6 +104,7 @@ html, body{
     -webkit-font-smoothing: antialiased;
         line-height: 1.18;
     margin-top: 0;
+    text-shadow: 1px 1px #5f5f5f;
 }
 #aboutpar{
     text-align: center;
@@ -167,8 +170,7 @@ html, body{
     background-image: url(../img/portfolio-1-sm.jpg);
     background-position: center;
     background-size: cover;
-    height: 20vw;
-    width: 20vw;
+
 }
 .Items {
     height: 100%;
@@ -192,57 +194,52 @@ html, body{
     background-image: url(../img/portfolio-2-sm.jpg);
     background-position: center;
     background-size: cover;
-    height: 20vw;
-    width: 20vw;
+
 }
 #thumbnail3 {
     background-image: url(../img/portfolio-3-sm.jpg);
     background-position: center;
     background-size: cover;
- height: 20vw;
-    width: 20vw;
+
 }
 #thumbnail4 {
     background-image: url(../img/portfolio-4-sm.jpg);
     background-position: center;
     background-size: cover;
-   height: 20vw;
-    width: 20vw;
+
 }
 #thumbnail5 {
     background-image: url(../img/portfolio-5-sm.jpg);
     background-position: center;
     background-size: cover;
-    height: 20vw;
-    width: 20vw;
+
 }
 #thumbnail6 {
     background-image: url(../img/portfolio-6-sm.jpg);
     background-position: center;
     background-size: cover;
-  height: 20vw;
-    width: 20vw;
 }
 #thumbnail7 {
     background-image: url(../img/portfolio-7-sm.jpg);
     background-position: center;
     background-size: cover;
-   height: 20vw;
-    width: 20vw;
+
 }
 #thumbnail8 {
     background-image: url(../img/portfolio-8-sm.jpg);
     background-position: center;
     background-size: cover;
-  height: 20vw;
-    width: 20vw;
+
 }
 #thumbnail9 {
     background-image: url(../img/portfolio-9-sm.jpg);
     background-position: center;
     background-size: cover;
-   height: 20vw;
-    width: 20vw;
+
+}
+.thumbnail{
+ height: 20vw;
+ width: 20vw;
 }
 .thumbnail>a{
     text-decoration:none;
@@ -543,8 +540,9 @@ html, body{
     margin: 1vw;
     display: flex;
     justify-content: center;
-    align-items: center
-    
+    align-items: center;
+    border:none;
+    color: white;
 }
 .input-btn>p{
     color:white;
@@ -633,15 +631,8 @@ html, body{
     margin-left: 35%;
     margin-right: 35%;
 }
-    #thumbnail1{width:30vw; height:30vw;}
-    #thumbnail2{width:30vw; height:30vw;}
-    #thumbnail3{width:30vw; height:30vw;}
-    #thumbnail4{width:30vw; height:30vw;}
-    #thumbnail5{width:30vw; height:30vw;}
-    #thumbnail6{width:30vw; height:30vw;}
-    #thumbnail7{width:30vw; height:30vw;}
-    #thumbnail8{width:30vw; height:30vw;}
-    #thumbnail9{width:30vw; height:30vw;}
+    .thumbnail{width:30vw; height:30vw;}
+   
 }
 @media(max-width: 991px) and (min-width:768px){
     navLinks{display: none; }
@@ -673,27 +664,13 @@ html, body{
     .input-email{
         width:100%;
     }
-    #thumbnail1{width:30vw; height:30vw;}
-    #thumbnail2{width:30vw; height:30vw;}
-    #thumbnail3{width:30vw; height:30vw;}
-    #thumbnail4{width:30vw; height:30vw;}
-    #thumbnail5{width:30vw; height:30vw;}
-    #thumbnail6{width:30vw; height:30vw;}
-    #thumbnail7{width:30vw; height:30vw;}
-    #thumbnail8{width:30vw; height:30vw;}
-    #thumbnail9{width:30vw; height:30vw;}
+    .thumbnail{width:30vw; height:30vw;}
+   
     
 }
 @media (min-width:600px) and (max-width: 768px){
-    #thumbnail1{width: 40vw; height: 40vw;}
-    #thumbnail2{width: 40vw; height: 40vw;}
-    #thumbnail3{width: 40vw; height: 40vw;}
-    #thumbnail4{width: 40vw; height: 40vw;}
-    #thumbnail5{width: 40vw; height: 40vw;}
-    #thumbnail6{width: 40vw; height: 40vw;}
-    #thumbnail7{width: 40vw; height: 40vw;}
-    #thumbnail8{width: 40vw; height: 40vw;}
-    #thumbnail9{width: 40vw; height: 40vw;}
+    .thumbnail{width: 40vw; height: 40vw;}
+  
     html{font-size: 75%}
     .bannerItems{font-size: 1.75rem;}
     .numbers{}
@@ -740,19 +717,12 @@ html, body{
     }
 }
 @media( max-width: 600px){
-    #thumbnail1{width: 90vw;height: 90vw;}
-    #thumbnail2{width: 90vw;height: 90vw;}
-    #thumbnail3{width: 90vw;height: 90vw;}
-    #thumbnail4{width: 90vw;height: 90vw;}
-    #thumbnail5{width: 90vw;height: 90vw;}
-    #thumbnail6{width: 90vw;height: 90vw;}
-    #thumbnail7{width: 90vw;height: 90vw;}
-    #thumbnail8{width: 90vw;height: 90vw;}
-    #thumbnail9{width: 90vw;height: 90vw;}
-    .Items{flex-direction: column; align-items: baseline;}
+    .thumbnail{width: 80vw; height: 80vw;}
+    .Items{flex-direction: column; align-items: baseline; width: 90%; margin-right:5%;}
     .nav{display: none;}
     .bannerItems>h1{font-size:1.25rem; }
-    html{font-size: 65%;}
+    html{font-size: 65%;
+}
     .mobileNav{
     position: fixed;
     display: flex;
@@ -817,7 +787,7 @@ html, body{
         width:100%;
     }
     .input-btn{
-        width:1000%;
+        width:100%;
         font-size:1.5rem;
     }
     .input-name>input:placeholder-shown{
@@ -845,4 +815,7 @@ html, body{
     .mobileBtn{display: none;}
 .mobileNavItems{width: 100%;height: 100%; background-color: rgba(255, 255, 255, 0.95); display: none; justify-content: center; align-items:center; flex-direction:column;position: fixed; z-index: 1;}
     .mobileNavRow{display: none;}
+}
+.input-button {
+    width: 100%;
 }
