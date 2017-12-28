@@ -121,7 +121,7 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+
     
 }
 #aboutTitle{
@@ -247,13 +247,14 @@ html, body{
 .thlink:hover .thumbnailhover{
     visibility: visible;
     animation-name: thuhover;
-    animation-duration: 0.5s;
+    animation-duration: 0.4s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
 }
 .thumbnailhover:hover .title {
     animation-name: titanim;
-    animation-duration: 0.4s;
+    animation-delay: 0.2s;
+    animation-duration: 0.2s;
     animation-timing-function:ease-in-out;
     animation-fill-mode: forwards;
     position: absolute;
@@ -267,8 +268,8 @@ html, body{
 }
 .thumbnailhover:hover .descr {
     animation-name: descranim;
-    animation-duration: 0.2s;
-    animation-delay: 0.05s;
+    animation-duration: 0.1s;
+    animation-delay: 0.3s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     position: absolute;
@@ -357,7 +358,12 @@ html, body{
 .mobileNav{
     z-index: 2;
 }
-
+.mobileBtn:hover{
+    cursor:pointer;
+}
+.mobileNavExitBtn:hover{
+    cursor: pointer;
+}
 .item {
     height: 90%;
 }
@@ -818,4 +824,8 @@ html, body{
 }
 .input-button {
     width: 100%;
+}
+
+.aboutItems {
+    padding: 1vh;
 }
